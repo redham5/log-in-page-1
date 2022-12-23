@@ -58,14 +58,6 @@ function checkInputs(){
         setSuccessFor(re_password)
     }
 
-
-
-
-
-
-
-
-
 }
 
 function setErrorFor(input, message){
@@ -83,7 +75,7 @@ function setErrorFor(input, message){
 function setSuccessFor(input){
     let formControl = input.parentElement  // .form-control
 
-    // add success clas
+    // add success class
     formControl.className = 'form-control success'
 }
 
